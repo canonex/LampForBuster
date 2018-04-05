@@ -1,9 +1,11 @@
-# LampForStretch
-Non Interactive Bash Debian Stretch Linux Lamp Installer,
-easily spelled NIBDSLLI.
+# LampForBuster
+Non Interactive Bash Debian Buster Linux Lamp Installer,
+easily spelled NIBDBLLI.
+
+**This is just a clone of Stretch installer: work in progress, do not use.**
 
 ## How to:
-1. Install Debian Stretch.
+1. Install Debian Buster.
    - if building a server consider using [Debian netinstall ](https://www.debian.org/distrib/netinst)
    - in tasksel let only "Standard system utilities" selected.
 
