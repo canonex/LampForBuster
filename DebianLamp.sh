@@ -104,7 +104,7 @@ echo "						- Apache"
 #Removed version informations to get the current version
 #Added php-gd for image manipulation
 #Suggested php7.0-opcache
-apt-get install -y php libapache2-mod-php php-curl php-ssh2 php-gd git
+apt-get install -y php libapache2-mod-php php-curl php-ssh2 php-gd php-mysql git
 
 
 echo "						- PhpMyAdmin"
