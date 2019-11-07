@@ -24,6 +24,10 @@ fi
 
 
 echo "						fail2ban"
+TODO FIX FAIL2BAN
+exit 1
+
+ 
 CURRENT=/etc/fail2ban/jail.conf
 #Backup
 cp $CURRENT $CURRENT.old
@@ -50,7 +54,7 @@ echo "						apache2.conf"
 echo "ServerTokens Prod" >> $CURRENT
 echo "ServerSignature Off" >> $CURRENT
 
-CURRENT="/etc/php/7.0/apache2/php.ini"
+CURRENT="/etc/php/7.2/apache2/php.ini"
 #Backup
 cp $CURRENT $CURRENT.old
 
