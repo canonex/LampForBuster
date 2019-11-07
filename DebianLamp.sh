@@ -23,7 +23,7 @@ apt-get update
 
 echo -e "\n"
 echo "				Installing Ssh, fail2ban, Expect and Debconf for automatic installations"
-apt-get -y install ssh expect debconf-utils fail2ban iptables aptitude
+apt-get -y install ssh fail2ban expect debconf-utils aptitude
 
 echo -e "\n"
 echo "				Installing Lamp"
@@ -104,7 +104,7 @@ echo "						- Apache"
 #Removed version informations to get the current version
 #Added php-gd for image manipulation
 #Suggested php7.0-opcache
-apt-get install -y php libapache2-mod-php php-mcrypt php-curl php-ssh2 php-gd git
+apt-get install -y php libapache2-mod-php php-curl php-ssh2 php-gd git
 
 
 echo "						- PhpMyAdmin"

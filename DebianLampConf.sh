@@ -54,6 +54,10 @@ echo "						apache2.conf"
 echo "ServerTokens Prod" >> $CURRENT
 echo "ServerSignature Off" >> $CURRENT
 
+
+#TODO B get current path using
+#php --ini
+
 CURRENT="/etc/php/7.2/apache2/php.ini"
 #Backup
 cp $CURRENT $CURRENT.old
